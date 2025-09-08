@@ -699,6 +699,7 @@ final class RootViewController: UIViewController, ObservableObject {
         // set up the clock view
         clockDateFormatter.dateStyle = .none
         clockDateFormatter.timeStyle = .short
+        clockDateFormatter.dateFormat = "HH:mm"
         clockLabelOutlet.font = ConstantsUI.clockLabelFontSize
         clockLabelOutlet.textColor = ConstantsUI.clockLabelColor
                 
