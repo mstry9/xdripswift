@@ -60,6 +60,7 @@ class LandscapeValueViewController: UIViewController {
             // set up the clock view
             clockDateFormatter.dateStyle = .none
             clockDateFormatter.timeStyle = .short
+            clockDateFormatter.dateFormat = "HH:mm"
             
             // set the format for the clock view and update it to show the current time
             updateClockView()
